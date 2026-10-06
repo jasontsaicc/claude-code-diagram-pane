@@ -2,7 +2,7 @@
 
 Claude Code mod: right-side pane that shows diagrams Claude draws via the `mcp__side-diagram__show` tool.
 
-Decisions: `docs/adr.md`. Log and open items: `tasks/worklog.md`.
+Decisions: `docs/adr/`. Log and open items: `tasks/worklog.md`.
 
 | Control | Action |
 |---|---|

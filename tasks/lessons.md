@@ -1,0 +1,3 @@
+- engine 回「no hook answered」：先在 hook 包 `try/catch` 回 `{ deny: String(err) }` 看真正錯誤。
+- 測試輸入照型別（`ToolCallReserved` + 攤平參數）建構，不照被測 code。
+- GitHub repo 一律用 SSH remote（`git@github.com:jasontsaicc/<repo>.git`），HTTPS 不收密碼。
