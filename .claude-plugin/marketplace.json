@@ -1,0 +1,5 @@
+{
+  "name": "side-diagram",
+  "owner": { "name": "Jason Tsai" },
+  "plugins": [{ "name": "side-diagram", "source": "./" }]
+}

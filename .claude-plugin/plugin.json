@@ -1,0 +1,1 @@
+{ "name": "side-diagram", "version": "0.1.0", "description": "Right-side pane that shows ASCII diagrams Claude draws", "types": "./types/index.d.ts" }
