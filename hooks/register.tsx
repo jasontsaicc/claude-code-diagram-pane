@@ -21,7 +21,7 @@ export const register: Register = on => {
     await $.tool.register({
       name: 'show',
       description:
-        'Show a diagram in the side pane. Call it when an architecture, flow, sequence, or data structure explanation would be clearer with a picture, during learning or normal work. Keep lines <= 60 columns. Draw boxes with Unicode box chars (╭─╮ │ ╰─╯, ┌─┐ for plain nodes), arrows as ──▶ ◀── │ ▼ ▲. No emoji (unclear in terminals, breaks alignment). Labels inside boxes and on arrows must be English/ASCII only: CJK chars are 2 columns wide and break the box edges. Put Chinese notes below the drawing. Put questions last, starting with "Q1:", "Q2:".',
+        'Show a diagram in the side pane. Call it when an architecture, flow, sequence, or data structure explanation would be clearer with a picture, during learning or normal work. Pick one type first (flow, sequence, state, tree, layers, table) and draw only that. Less is better: max 9 nodes, else split into two diagrams; merge nodes that always go together; drop any arrow the layout already shows; every arrow gets a short label. Keep lines <= 60 columns. Draw boxes with Unicode box chars (╭─╮ │ ╰─╯, ┌─┐ for plain nodes), arrows as ──▶ ◀── │ ▼ ▲. No emoji (unclear in terminals, breaks alignment). Labels inside boxes and on arrows must be English/ASCII only: CJK chars are 2 columns wide and break the box edges. Put Chinese notes below the drawing. Put questions last, starting with "Q1:", "Q2:".',
       inputSchema: {
         type: 'object',
         properties: {
